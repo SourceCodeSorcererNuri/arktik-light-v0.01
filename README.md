@@ -36,33 +36,30 @@ Here is a preview of the setup:
 
 ### 🛠️ Installation Guide
 
-#### 📹 Installation Video
+This method downloads the compressed dotfiles archive directly and runs the included script.
 
-An in-depth installation video guide is available here: N/A
+#### Prerequisites
 
-> **Please Note:** Before proceeding, ensure you have necessary dependencies like Hyprland, Kitty, Rofi, Zsh, etc., installed on your system.
+Ensure you have the following basic tools installed:
+* **`wget`** (or `curl` use `sudo pacman -S zip unzip wget`) to download the file.
+* **`unzip`** to extract the archive.
 
 #### Step-by-Step Guide
 
-The dotfiles are packaged in `arktik-light-dotfiles.zip` and use an included script for easy setup.
-
-1.  **Clone the Repository:**
+1.  **Download the Dotfiles Archive:**
     ```bash
-    git clone https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01
-    cd arktik-light-v0.01
+    wget [https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip](https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip)
     ```
 
-2.  **Extract the Archive:**
+2.  **Unzip the Archive and Navigate:**
     ```bash
     unzip arktik-light-dotfiles.zip
+    cd arktik-light-dotfiles
     ```
 
 3.  **Run the Installer Script:**
-    Navigate to the extracted folder and execute the primary installer script.
     ```bash
-    cd arktik-light-dotfiles
-    chmod +x installer.sh
-    sudo ./installer.sh
+    ./installer.sh
     ```
     > **Warning:** Always review the contents of `./installer.sh` before running it to understand the changes it will make to your system.
 
@@ -101,32 +98,29 @@ Setupning ko'rinishi:
 
 ### 🛠️ O'rnatish Qo'llanmasi
 
-#### 📹 O'rnatish Bo'yicha Video
+Ushbu usul dotfiles arxivini to'g'ridan-to'g'ri yuklab oladi va o'rnatuvchi skriptni ishga tushiradi.
 
-Batafsil o'rnatish bo'yicha video qo'llanma shu yerda mavjud: N/A
+#### Oldindan Talablar (Prerequisites)
 
-> **Iltimos E'tibor Bering:** Davom etishdan oldin, tizimingizda Hyprland, Kitty, Rofi, Zsh kabi kerakli bog'liqliklar (dependencies) o'rnatilganligiga ishonch hosil qiling.
+Sizda quyidagi asosiy vositalar o'rnatilganligiga ishonch hosil qiling:
+* **`wget`** (yoki `curl` `sudo pacman -S zip unzip wget` dan foydalanib kerakli asboblarni yuklab oling) faylni yuklab olish uchun.
+* **`unzip`** arxivni ochish uchun.
 
 #### Bosqichma-Bosqich Qo'llanma
 
-Dotfiles `arktik-light-dotfiles.zip` ga joylangan va qulay sozlash uchun maxsus skript ishlatiladi.
-
-1.  **Omborxonani Kloni Qiling (Clone the Repository):**
+1.  **Dotfiles Arxivini Yuklab Olish:**
     ```bash
-    git clone https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01
-    cd arktik-light-v0.01
+    wget [https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip](https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip)
     ```
 
-2.  **Arxivni Ochish (Extract the Archive):**
+2.  **Arxivni Ochish va Papkaga O'tish:**
     ```bash
     unzip arktik-light-dotfiles.zip
+    cd arktik-light-dotfiles
     ```
 
-3.  **O'rnatuvchi Skriptni Ishga Tushirish (Run the Installer Script):**
-    Ochilgan papkaga o'ting va asosiy o'rnatuvchi skriptni ishga tushiring.
+3.  **O'rnatuvchi Skriptni Ishga Tushirish:**
     ```bash
-    cd arktik-light-dotfiles
-    chmod +x installer.sh
-    sudo ./installer.sh
+    ./installer.sh
     ```
     > **Ogohlantirish:** Tizimingizga kiritiladigan o'zgarishlarni tushunish uchun `./installer.sh` faylining ichidagi ma'lumotlarni ishga tushirishdan oldin har doim ko'rib chiqing.
