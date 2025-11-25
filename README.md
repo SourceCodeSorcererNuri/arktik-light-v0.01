@@ -38,7 +38,7 @@ Here is a preview of the setup:
 
 #### 📹 Installation Video
 
-An in-depth installation video guide is available here: **[YOUTUBE VIDEO LINK HERE]**
+An in-depth installation video guide is available here: N/A
 
 > **Please Note:** Before proceeding, ensure you have necessary dependencies like Hyprland, Kitty, Rofi, Zsh, etc., installed on your system.
 
@@ -48,7 +48,7 @@ The dotfiles are packaged in `arktik-light-dotfiles.zip` and use an included scr
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR_REPO_URL_HERE]
+    git clone https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01
     cd arktik-light-v0.01
     ```
 
@@ -61,7 +61,8 @@ The dotfiles are packaged in `arktik-light-dotfiles.zip` and use an included scr
     Navigate to the extracted folder and execute the primary installer script.
     ```bash
     cd arktik-light-dotfiles
-    ./installer.sh
+    chmod +x installer.sh
+    sudo ./installer.sh
     ```
     > **Warning:** Always review the contents of `./installer.sh` before running it to understand the changes it will make to your system.
 
@@ -102,7 +103,7 @@ Setupning ko'rinishi:
 
 #### 📹 O'rnatish Bo'yicha Video
 
-Batafsil o'rnatish bo'yicha video qo'llanma shu yerda mavjud: **[YOUTUBE VIDEO LINK HERE]**
+Batafsil o'rnatish bo'yicha video qo'llanma shu yerda mavjud: N/A
 
 > **Iltimos E'tibor Bering:** Davom etishdan oldin, tizimingizda Hyprland, Kitty, Rofi, Zsh kabi kerakli bog'liqliklar (dependencies) o'rnatilganligiga ishonch hosil qiling.
 
@@ -112,7 +113,7 @@ Dotfiles `arktik-light-dotfiles.zip` ga joylangan va qulay sozlash uchun maxsus 
 
 1.  **Omborxonani Kloni Qiling (Clone the Repository):**
     ```bash
-    git clone [YOUR_REPO_URL_HERE]
+    git clone https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01
     cd arktik-light-v0.01
     ```
 
@@ -125,6 +126,7 @@ Dotfiles `arktik-light-dotfiles.zip` ga joylangan va qulay sozlash uchun maxsus 
     Ochilgan papkaga o'ting va asosiy o'rnatuvchi skriptni ishga tushiring.
     ```bash
     cd arktik-light-dotfiles
-    ./installer.sh
+    chmod +x installer.sh
+    sudo ./installer.sh
     ```
     > **Ogohlantirish:** Tizimingizga kiritiladigan o'zgarishlarni tushunish uchun `./installer.sh` faylining ichidagi ma'lumotlarni ishga tushirishdan oldin har doim ko'rib chiqing.
