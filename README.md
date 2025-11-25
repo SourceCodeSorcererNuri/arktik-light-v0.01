@@ -48,7 +48,7 @@ Ensure you have the following basic tools installed:
 
 1.  **Download the Dotfiles Archive:**
     ```bash
-    wget [https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip](https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip)
+    wget https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip
     ```
 
 2.  **Unzip the Archive and Navigate:**
@@ -110,7 +110,7 @@ Sizda quyidagi asosiy vositalar o'rnatilganligiga ishonch hosil qiling:
 
 1.  **Dotfiles Arxivini Yuklab Olish:**
     ```bash
-    wget [https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip](https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip)
+    wget https://github.com/SourceCodeSorcererNuri/arktik-light-v0.01/raw/refs/heads/main/arktik-light-dotfiles.zip
     ```
 
 2.  **Arxivni Ochish va Papkaga O'tish:**
