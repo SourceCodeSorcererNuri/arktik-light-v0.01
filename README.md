@@ -61,8 +61,8 @@ Ensure you have the following basic tools installed:
     ```bash
     ./installer.sh
     ```
-    > [!WARNING]
-    > Always review the contents of `./installer.sh` before running it to understand the changes it will make to your system.
+> [!WARNING]
+> Always review the contents of `./installer.sh` before running it to understand the changes it will make to your system.
 
 ---
 ---
@@ -124,5 +124,5 @@ Sizda quyidagi asosiy vositalar o'rnatilganligiga ishonch hosil qiling:
     ```bash
     ./installer.sh
     ```
-    > [!WARNING] 
-    > Tizimingizga kiritiladigan o'zgarishlarni tushunish uchun `./installer.sh` faylining ichidagi ma'lumotlarni ishga tushirishdan oldin har doim ko'rib chiqing.
+> [!WARNING] 
+> Tizimingizga kiritiladigan o'zgarishlarni tushunish uchun `./installer.sh` faylining ichidagi ma'lumotlarni ishga tushirishdan oldin har doim ko'rib chiqing.
